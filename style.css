@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    height: 98vh;
+}
+#section{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+    padding: 20px;
+    
+}
+#image1{
+    height: 500px;
+}
+
+#text_div{width: 50;
+    padding: 0 0 0 40;
+
+}
+
+#image_div2{
+    width: 50;
+
+}
+.text_div_h1{
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text_div_h4{
+    font-size:24px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text_div_p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+#colorfull_name{
+    color: blue;
+}
+#colorfull_name:hover{
+    color: brown;
+    transition: 1s;
+}
+button{
+    padding: 13px 40px;
+    background-image: linear-gradient(orange, tomoto);
+    font-size: 20px;
+    border: none;
+    border-radius:5px ;
+    text-decoration: bold ;
+    background-color: orange;
+ 
+}
+button{
+    background-image: linear-gradient( orange, tomoto);
+}
+<!-------section2 end------>
+
+
+#section2{
+    padding: 100px 0px;
+    background-image: url(/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 350px;
+
+}
+    #section2_h1{
+        font-size: 44px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    
+    
+    
+    #section2_maindiv{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+        gap: 30px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        border-left: 7px solid;
+        border-image: linear-gradient(rgb(255, 217, 0),rgb(255, 0, 0));
+        border-image-slice: 1;
+        padding: 15px;
+        box-shadow: 5px 5px 10px 2px gray;
+    }
+    .cards_image{
+        height: 200px;
+        width: 100%;
+    }
+    hr{
+        width: 100%;
+        border: 1px solid red;
+    }
+    .card_heading{
+        font-size: 28px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+    }
